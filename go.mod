@@ -1,6 +1,6 @@
 module aws-auth
 
-go 1.23
+go 1.20
 
 require (
 	github.com/alexflint/go-arg v1.5.1
