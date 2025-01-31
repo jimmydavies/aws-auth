@@ -1,0 +1,8 @@
+[default]
+region = eu-west-1
+
+[profile <rolename>]
+account_id = <my_aws_account_number>
+idp_arn    = <arn_of_the_iam_idp_saml_provider>
+login_url  = <login_url>
+credential_process = <path_to_this_script> <environment> <rolename> -o json
