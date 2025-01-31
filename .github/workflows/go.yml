@@ -32,3 +32,24 @@ jobs:
         # Artifact name
         name: aws-auth_darwin_arm64
         path: aws-auth_darwin_arm64
+
+    - name: upload_darwin_amd4
+      uses: actions/upload-artifact@v4.6.0
+      with:
+        # Artifact name
+        name: aws-auth_darwin_amd64
+        path: aws-auth_darwin_amd64
+
+    - name: upload_linux_arm64
+      uses: actions/upload-artifact@v4.6.0
+      with:
+        # Artifact name
+        name: aws-auth_linux_arm64
+        path: aws-auth_linux_arm64
+
+    - name: upload_linux_amd64
+      uses: actions/upload-artifact@v4.6.0
+      with:
+        # Artifact name
+        name: aws-auth_linux_amd64
+        path: aws-auth_linux_amd64
